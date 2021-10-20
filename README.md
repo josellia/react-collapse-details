@@ -5,9 +5,9 @@ React component for extra content
 ![npm](https://img.shields.io/npm/v/react-collapse-details)
 ![NPM](https://img.shields.io/npm/l/react-collapse-details)
 
-![Test Image 1](https://github.com/josellia/img-collapse/blob/master/collapse.PNG)
+[![Watch the video](https://github.com/josellia/img-collapse/blob/master/details.mp4)]
 
-## Como instalar
+## How to install
 
 Below are ways to install the library using npm or yarn:
 
@@ -17,7 +17,7 @@ npm i react-collapse-details
 yarn add react-collapse-details
 ```
 
-## Como usar
+## How to use
 
 ```jsx
 import React from "react";
@@ -40,7 +40,7 @@ function App() {
 export default App;
 ```
 
-## Propriedades
+## Properties
 
 This component is an abstraction of a collapse, but using native HTML properties.
 
