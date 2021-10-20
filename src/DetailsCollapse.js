@@ -19,7 +19,7 @@ const DetailsCollapse = (props) => {
         >
           {summary}
         </summary>
-        <div className={`details-container__content ${styleDetailsContent}`}>
+        <div className={styleDetailsContent || "details-container__content"}>
           {children}
         </div>
       </details>

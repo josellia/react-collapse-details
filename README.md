@@ -5,7 +5,7 @@ React component for extra content
 ![npm](https://img.shields.io/npm/v/react-collapse-details)
 ![NPM](https://img.shields.io/npm/l/react-collapse-details)
 
-[![Watch the video](https://github.com/josellia/img-collapse/blob/master/details.mp4)]
+![Test Image 1](https://github.com/josellia/img-collapse/blob/master/collapse.PNG)
 
 ## How to install
 
@@ -38,6 +38,39 @@ function App() {
 }
 
 export default App;
+```
+
+## Custom
+
+```jsx
+<DetailsCollapse
+  width="50rem"
+  summary="Lorem ipsum dolor sit"
+  styleDetailsSummary="style-summary"
+>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptates
+    obcaecati
+  </p>
+</DetailsCollapse>
+```
+
+```css
+.style-summary {
+  background-color: #ff008c;
+  padding: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  outline: none;
+  border-radius: 1em;
+  font-weight: bold;
+  color: #64450b;
+}
+
+.style-summary:hover {
+  background-color: #d61981;
+  color: #fff;
+}
 ```
 
 ## Properties
