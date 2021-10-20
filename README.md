@@ -7,6 +7,8 @@ React component for extra content
 
 ![Test Image 1](https://github.com/josellia/img-collapse/blob/master/collapse.PNG)
 
+https://user-images.githubusercontent.com/33287490/138172984-83e1c7bc-717c-490a-a713-a1e7903451ad.mp4
+
 ## How to install
 
 Below are ways to install the library using npm or yarn:
