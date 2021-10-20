@@ -1,6 +1,6 @@
 # react-collapse-details
 
-Componente React para conteúdos extras
+React component for extra content
 
 ![npm](https://img.shields.io/npm/v/react-collapse-details)
 ![NPM](https://img.shields.io/npm/l/react-collapse-details)
@@ -9,7 +9,7 @@ Componente React para conteúdos extras
 
 ## Como instalar
 
-Abaixo as maneiras de como instalar a biblioteca usando o npm ou yarn:
+Below are ways to install the library using npm or yarn:
 
 ```
 npm i react-collapse-details
@@ -42,12 +42,12 @@ export default App;
 
 ## Propriedades
 
-Este componente é uma abstração de um collapse, mas utilizando propriedades nativas do HTML.
+This component is an abstraction of a collapse, but using native HTML properties.
 
-| Props               | type    | required | Descrção                         |
-| ------------------- | ------- | -------- | -------------------------------- |
-| width               | string  | X        |                                  |
-| summary             | string  | X        |                                  |
-| children            | element | X        |                                  |
-| styleDetailsSummary | string  |          | Classe para estilizar o summary  |
-| styleDetailsContent | string  |          | Classe para estilizar o contéudo |
+| Props               | type    | required | Description                |
+| ------------------- | ------- | -------- | -------------------------- |
+| width               | string  | X        |                            |
+| summary             | string  | X        |                            |
+| children            | element | X        |                            |
+| styleDetailsSummary | string  |          | Class to style the summary |
+| styleDetailsContent | string  |          | Class to style the content |

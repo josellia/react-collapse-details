@@ -15,7 +15,7 @@ const DetailsCollapse = (props) => {
     <main style={styles.styleContainer}>
       <details>
         <summary
-          className={`details-container__summary ${styleDetailsSummary} `}
+          className={styleDetailsSummary || "details-container__summary"}
         >
           {summary}
         </summary>
