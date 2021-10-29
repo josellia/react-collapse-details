@@ -1,17 +1,10 @@
 .details-container__summary {
   padding: 1em;
-  background-color: #e9d41d;
   margin-bottom: 1em;
   cursor: pointer;
   outline: none;
-  border-radius: 0.3em;
   font-weight: bold;
-  color: #000;
-}
-
-.details-container__summary:hover {
-  background-color: #fce305;
-  color: #353839;
+  transition: all 1s ease;
 }
 
 details[open] summary ~ * {

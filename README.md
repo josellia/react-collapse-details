@@ -17,36 +17,28 @@ npm i react-collapse-details
 yarn add react-collapse-details
 ```
 
-## How to use
+## How to use default component
 
 ```jsx
-import React from "react";
-import "./App.css";
-import DetailsCollapse from "react-collapse-details";
-
-function App() {
-  return (
-    <div className="container">
-      <DetailsCollapse width="50rem" summary="Lorem ipsum dolor sit">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-          voluptates obcaecati
-        </p>
-      </DetailsCollapse>
-    </div>
-  );
-}
-
-export default App;
+<DetailsCollapse summary="Lorem ipsum dolor sit">
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptates
+    obcaecati
+  </p>
+</DetailsCollapse>
 ```
 
-## Custom
+## How to use custom props component
 
 ```jsx
 <DetailsCollapse
-  width="50rem"
   summary="Lorem ipsum dolor sit"
-  styleDetailsSummary="style-summary"
+  width="60rem"
+  bgColor="red"
+  bgHover="blue"
+  color="yellow"
+  colorHover="pink"
+  borderRadius="1em"
 >
   <p>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptates
@@ -55,32 +47,18 @@ export default App;
 </DetailsCollapse>
 ```
 
-```css
-.style-summary {
-  background-color: #ff008c;
-  padding: 1em;
-  margin-bottom: 1em;
-  cursor: pointer;
-  outline: none;
-  border-radius: 1em;
-  font-weight: bold;
-  color: #64450b;
-}
-
-.style-summary:hover {
-  background-color: #d61981;
-  color: #fff;
-}
-```
-
 ## Properties
 
 This component is an abstraction of a collapse, but using native HTML properties.
 
-| Props               | type    | required | Description                |
-| ------------------- | ------- | -------- | -------------------------- |
-| width               | string  | X        |                            |
-| summary             | string  | X        |                            |
-| children            | element | X        |                            |
-| styleDetailsSummary | string  |          | Class to style the summary |
-| styleDetailsContent | string  |          | Class to style the content |
+| Props               | type    | required | Description                       |
+| ------------------- | ------- | -------- | --------------------------------- |
+| width               | string  |          |                                   |
+| summary             | string  | X        |                                   |
+| children            | element | X        |                                   |
+| bgColor             | string  |          | Background color of summary       |
+| bgHover             | string  |          | Background color hover of summary |
+| color               | string  |          | Color of summary                  |
+| colorHover          | string  |          | Color hover of summary            |
+| borderRadius        | string  |          | Border radius of summary          |
+| styleDetailsContent | string  |          | Class to style the content        |
