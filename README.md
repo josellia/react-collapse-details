@@ -20,17 +20,21 @@ yarn add react-collapse-details
 ## How to use default component
 
 ```jsx
+import DetailsCollapse from "react-collapse-details";
+
 <DetailsCollapse summary="Lorem ipsum dolor sit">
   <p>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptates
     obcaecati
   </p>
-</DetailsCollapse>
+</DetailsCollapse>;
 ```
 
 ## How to use custom props component
 
 ```jsx
+import DetailsCollapse from "react-collapse-details";
+
 <DetailsCollapse
   summary="Lorem ipsum dolor sit"
   width="60rem"
@@ -44,7 +48,7 @@ yarn add react-collapse-details
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptates
     obcaecati
   </p>
-</DetailsCollapse>
+</DetailsCollapse>;
 ```
 
 ## Properties
