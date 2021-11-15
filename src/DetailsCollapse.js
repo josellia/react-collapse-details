@@ -13,6 +13,7 @@ const DetailsCollapse = (props) => {
     color,
     colorHover,
     borderRadius,
+    border,
   } = props;
 
   const [hoverRef, isHovered] = useHover();
@@ -25,6 +26,7 @@ const DetailsCollapse = (props) => {
       background: isHovered ? bgHover || "orange" : bgColor || "#e9d41d",
       color: isHovered ? colorHover || "#fff" : color || "#000",
       borderRadius: borderRadius || "0.3em",
+      border: border,
     },
   };
   return (
@@ -58,6 +60,7 @@ DetailsCollapse.prototypes = {
   color: PropTypes.string,
   colorHover: PropTypes.string,
   borderRadius: PropTypes.string,
+  border: PropTypes.string,
 };
 
 const useHover = () => {
